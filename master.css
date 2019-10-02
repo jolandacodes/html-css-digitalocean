@@ -7,7 +7,7 @@ h2 {
 /* NAVBAR  */
 
 .row-bg {
-  background-color: #0069ff;
+  background-color: blue;
   padding: 10%;
 }
 
@@ -17,8 +17,22 @@ h2 {
 
 #navbar {
   margin: 0;
+  border: none;
 }
 
+#navbar a {
+  color: #fff;
+}
+
+.navbar-header {
+  background-color: blue;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+/* Beginning of Body */
 .greysection {
   background-color: #f3f5f9;
 }
@@ -33,4 +47,20 @@ h2 {
   left: auto;
   right: auto;
   text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+
+/* .navbar-header {
+  background-color: #fff;
+  } */
+
+.navbar-default .navbar-toggle {
+  border: none;
+  }
+
+#navbar a {
+  color: blue;
+}
+
 }
