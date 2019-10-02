@@ -49,15 +49,26 @@ h2 {
   text-align: center;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 768px) {
 
-/* .navbar-header {
+.navbar-header {
   background-color: #fff;
-  } */
+}
+
+#navbar a {
+  color: blue;
+}
+
+}
+@media only screen and (min-width: 992px) {
+
+.navbar-header {
+  background-color: #fff;
+}
 
 .navbar-default .navbar-toggle {
   border: none;
-  }
+}
 
 #navbar a {
   color: blue;
