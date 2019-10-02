@@ -1,7 +1,24 @@
 .row-bg {
   background-color: blue;
+  padding: 60px 0 60px 0;
+}
+
+#form-css {
+  background: #fff;
 }
 
 .greysection {
   background-color: #f3f5f9;
+}
+
+.greysection-3 {
+  position: relative;
+  background-color: #f3f5f9;
+}
+
+
+.greysection-3-content {
+  left: auto;
+  right: auto;
+  text-align: center;
 }
