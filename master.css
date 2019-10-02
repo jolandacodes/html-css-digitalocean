@@ -1,9 +1,20 @@
 body {
 }
 
+h1 {
+  color: #fff;
+}
+
 h2 {
   color: black;
 }
+
+p {
+  color: #fff;
+  opacity: .8;
+  font-size: 24px;
+}
+
 /* NAVBAR  */
 
 .row-bg {
@@ -11,8 +22,22 @@ h2 {
   padding: 10%;
 }
 
+.btn-primary {
+  background-image: none;
+  background-color: #0069ff;
+  color: #fff;
+  width: 100%;
+  font-size: 16px;
+}
+
 #form-css {
   background: #fff;
+  border-radius: 3px;
+  padding: 5%;
+}
+
+#form-css h2 {
+  text-align: center;
 }
 
 #navbar {
@@ -33,6 +58,7 @@ h2 {
 }
 
 /* Beginning of Body */
+
 .greysection {
   background-color: #f3f5f9;
 }
