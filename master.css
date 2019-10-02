@@ -1,10 +1,22 @@
+body {
+}
+
+h2 {
+  color: black;
+}
+/* NAVBAR  */
+
 .row-bg {
-  background-color: blue;
-  padding: 60px 0 60px 0;
+  background-color: #0069ff;
+  padding: 10%;
 }
 
 #form-css {
   background: #fff;
+}
+
+#navbar {
+  margin: 0;
 }
 
 .greysection {
