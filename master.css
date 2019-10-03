@@ -66,11 +66,33 @@ h2 {
 
 .greysection p {
   color: #031b4e;
-  padding: 10%;
+  padding: 5%;
   opacity: .4;
 }
 .icons img {
   max-width: 200px;
+}
+
+.whitesection {
+  text-align: center;
+  color: #031b4e;
+  font-size: 18px;
+  padding: 5%;
+}
+
+.whitesection h1 {
+  text-align: center;
+  color: #031b4e;
+}
+
+.greysection li {
+  display: inline-block;
+  list-style-type: none;
+  width: calc(100% / 7);
+}
+
+.greysection li img {
+  max-width: 75%;
 }
 
 .greysection-3 {
