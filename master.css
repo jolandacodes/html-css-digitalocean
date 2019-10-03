@@ -64,6 +64,11 @@ h2 {
   text-align: center;
 }
 
+.greysection a {
+  color: #0069ff;
+  text-decoration: none;
+}
+
 .greysection p {
   color: #031b4e;
   padding: 5%;
@@ -95,17 +100,7 @@ h2 {
   max-width: 75%;
 }
 
-.greysection-3 {
-  position: relative;
-  background-color: #f3f5f9;
-}
 
-
-.greysection-3-content {
-  left: auto;
-  right: auto;
-  text-align: center;
-}
 
 @media only screen and (min-width: 768px) {
 
