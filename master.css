@@ -124,10 +124,15 @@ h2 {
   font-size: 32px;
   color: #031b4e;
 }
+
 /* FOOTER */
 
 .footer {
   background-color: #010e28;
+}
+
+.footer-row {
+  margin-left: 10px;
 }
 
 @media only screen and (min-width: 768px) {
