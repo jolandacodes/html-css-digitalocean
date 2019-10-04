@@ -131,9 +131,39 @@ h2 {
   background-color: #010e28;
 }
 
-.footer-row {
-  margin-left: 10px;
+.footer h5 {
+  color: white;
 }
+
+.footer a {
+  color: white;
+  opacity: .4;
+}
+
+.footer-row {
+  padding: 5% 0 5% 0;
+  line-height: 20px;
+}
+.copyright {
+  background-color: #010e28;
+  padding: 2% 0 7% 0;
+}
+
+.copyright p {
+  color: #fff;
+  opacity: .4;
+}
+
+.copyright-2 {
+  color: #fff;
+  opacity: .4;
+  margin-left: 5px;
+  text-align: right;
+  font-size: 28px;
+}
+
+
+/* MEDIA QUERIES */
 
 @media only screen and (min-width: 768px) {
 
