@@ -92,22 +92,13 @@ h2 {
   max-width: 200px;
 }
 
-/* Carasoul */
+/* Carousel */
 
-.carasoul {
+.carousel {
   position: relative;
   overflow: auto;
 }
 
-/* .screeshot {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-  max-width: 100%;
-  display:block;
-  height: auto;
-} */
 .whitesection {
   color: #031b4e;
   font-size: 18px;
@@ -126,8 +117,6 @@ h2 {
 .whitesection a {
   color: #0069ff;
 }
-
-
 
 .greysection li {
   display: inline-block;
@@ -148,6 +137,10 @@ h2 {
 .greysection-3 h3 {
   font-size: 18px;
   color: #031b4e;
+}
+
+.greysection-3 img {
+  max-width: 50px;
 }
 
 .greysection h1 {
