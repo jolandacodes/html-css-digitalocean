@@ -40,24 +40,57 @@ body {
     background-color: 0.25s linear, border-color 0.25s linear, color 0.25s linear;
 }
 
-@media only screen and (max-width: 767px) {
+.blue-credit-header {
+    background-color: rgb(3, 27, 78);
+    border-radius: 6px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: rgba(3, 27, 78, 0.06) 0px 2px 4px !important;
+    border-radius: 6px;
+    transition: all 0.5s ease 0s;
+}
 
-    .navbar {
-        height: 65px;
-        border-bottom: 1px solid rgb(229, 232, 237);
-        font-size: 14px;
-    }
+.blue-credit-header:hover {
+    transform: scale(1.005);
+    box-shadow: rgba(3, 27, 78, 0.1) 0px 10px 20px !important;
+    background-color: rgb(21, 205, 114) !important;
+}
 
-    .navbar-1-button {
-        padding: 15px;
-    }
+
+.banner {
+    background-image: url(img/bg-home-1-d54581d7.jpg);
+    padding: 15px;
+}
+
+.banner-logos {
+    background-color: #f3f5f9;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.banner-logos h6 {
+    font-size: 16px;
+    line-height: 120%;
+    color: #031b4e;
+}
+
+.banner-logos-link {
+    color: #0069ff;
+    padding: 35px;
+    text-align: center;
+}
+
+.banner-logos-link a:hover {
+    text-decoration: none;
+    color: #1633ff !important;
+}
+
+@media only screen and (max-width: 993px) {
 
     .navbar-2 {
-        padding: 15px;
-    }
-
-    .navbar-2-image {
-        width: 50%;
+        padding: 5px;
     }
 
     .navbar-2-image img {
@@ -68,56 +101,33 @@ body {
         padding: 10px;
     }
 
-    .navbar-2-buttons {
-        width: 20%;
-    }
-
-
-    .blue-credit-header {
-        background-color: rgb(3, 27, 78);
-        border-radius: 6px;
-        color: #fff;
-        text-align: center;
-        padding: 10px;
-        cursor: pointer;
-        box-shadow: rgba(3, 27, 78, 0.06) 0px 2px 4px !important;
-        border-radius: 6px;
-        transition: all 0.5s ease 0s;
-    }
-
-    .blue-credit-header:hover {
-        transform: scale(1.005);
-        box-shadow: rgba(3, 27, 78, 0.1) 0px 10px 20px !important;
-        background-color: rgb(21, 205, 114) !important;
-    }
-
     .banner {
-        height: 700px;
         background-image: url(img/bg-home-1-d54581d7.jpg);
-        padding: 15px;
-    }
-
-    .banner-left {
-        margin-top: 15%;
+        padding: 5px;
     }
 
     .banner h1 {
-        font-size: 58px;
+        font-size: 32px;
         line-height: 120%;
         color: #fff;
+        text-align: center;
+    }
+
+    .banner-left {
+        margin-top: 20px;
     }
 
     .banner-left p {
-        font-size: 24px;
+        margin-top: 10px;
+        font-size: 22px;
+        font-weight: lighter;
         line-height: 150%;
         color: #fff;
+        text-align: center;
     }
 
     .banner-right {
-        min-width: 370px;
         align-items: center;
-        min-width: 370px;
-        margin-top: 10%;
         border-radius: 6px;
         color: #4d4f03;
         background-color: #fff;
@@ -183,6 +193,12 @@ body {
         padding: 17px;
         cursor: pointer;
         margin-bottom: 0;
+    }
+
+    .imagelogo img {
+        width: 140px;
+        height: 77px;
+        object-fit: cover;
     }
 
 }
@@ -235,49 +251,17 @@ body {
         padding: 15px;
     }
 
-    .navbar-2-image img {
-        width: 200px;
-    }
-
     .navbar-2-links ul li {
         display: inline-block;
         margin-left: 15px;
     }
-
-    .navbar-2-links {
-        padding: 10px;
-    }
-
-    .navbar-2-buttons a {
-        text-decoration: none;
-    }
-
-    .navbar-2-buttons .white-button:hover {
-        background-color: #006aff;
-        border-color: #006aff;
-        color: #fff;
-    }
-
-    .blue-credit-header {
-        background-color: rgb(3, 27, 78);
-        border-radius: 6px;
-        color: #fff;
-        text-align: center;
-        padding: 10px;
-        cursor: pointer;
-        box-shadow: rgba(3, 27, 78, 0.06) 0px 2px 4px !important;
-        border-radius: 6px;
-        transition: all 0.5s ease 0s;
-    }
-
-    .blue-credit-header:hover {
-        transform: scale(1.005);
-        box-shadow: rgba(3, 27, 78, 0.1) 0px 10px 20px !important;
-        background-color: rgb(21, 205, 114) !important;
+    
+    .navbar-2-image img {
+        width: 200px;
     }
 
     .banner {
-        height: 700px;
+        height: 800px;
         background-image: url(img/bg-home-1-d54581d7.jpg);
         padding: 15px;
     }
@@ -370,28 +354,16 @@ body {
         margin-bottom: 0;
     }
 
+    .imagelogo {
+        margin-top: 22px;
+    }
+    
+    .imagelogo img {
+        margin-top: 20px;
+        width: 180px;
+        height: 50px;
+        object-fit: scale-down;
+    }
 
-}
 
-.banner-logos {
-    background-color: #f3f5f9;
-    padding-top: 64px;
-    padding-bottom: 64px;
-}
-
-.banner-logos h6 {
-    font-size: 14px;
-    line-height: 120%;
-    color: #031b4e;
-}
-
-.imagelogo {
-    margin-top: 22px;
-}
-
-.imagelogo img {
-    margin-top: 15px;
-    width: 180px;
-    height: 50px;
-    object-fit: cover;
 }
